@@ -84,7 +84,6 @@ header .continer nav input:checked + ul {
   justify-content: space-evenly;
   align-items: center;
   background-color: var(--platinum);
-
 }
 
 .hero .continer .content h2 {
@@ -111,24 +110,23 @@ input[type="submit"]:hover {
   border: 2px solid var(--dark-gunmetal);
 }
 @media (max-width: 600px) {
-  .hero .continer .content h2{
+  .hero .continer .content h2 {
     font-size: 45px;
   }
-  .hero .user img{
+  .hero .user img {
     width: 300px;
   }
 }
 @media (max-width: 500px) {
-
-  .hero .user img{
+  .hero .user img {
     width: 200px;
   }
 }
 @media (max-width: 400px) {
-  .hero .continer .content h2{
+  .hero .continer .content h2 {
     font-size: 35px;
   }
-  .hero .user img{
+  .hero .user img {
     width: 170px;
   }
 }
@@ -175,26 +173,24 @@ input[type="submit"]:hover {
     font-size: 13px;
   }
 }
-.services .continer{
+.services .continer {
   text-align: center;
   margin: auto;
   width: 100%;
   padding: 15px 0px;
   background-color: var(--platinum);
   color: var(--dark-gunmetal);
-
 }
-.services .continer h2{
+.services .continer h2 {
   font-size: 45px;
-
 }
-.services .continer .content{
+.services .continer .content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.services .continer .content div{
+.services .continer .content div {
   padding: 40px 20px;
   margin: 15px;
   margin-top: 20px;
@@ -203,49 +199,139 @@ input[type="submit"]:hover {
   box-shadow: 1px 1px 8px var(--dark-gunmetal);
   background-color: var(--dark-gunmetal);
 }
-.services .continer .content div h3{
-font-size: 25px;
-padding: 10px 0px;
+.services .continer .content div h3 {
+  font-size: 25px;
+  padding: 10px 0px;
 }
-.blog h2{
+.blog h2 {
   width: 100%;
-text-align: center;
-padding: 20px;
-color: var(--dark-gunmetal);
-font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  color: var(--dark-gunmetal);
+  font-size: 40px;
 }
-.blog .continer{
+.blog .continer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.blog .continer .content{
+.blog .continer .content {
   display: flex;
-
-
 }
-.blog .continer .content img{
-  width:200px;
+.blog .continer .content img {
+  width: 200px;
   margin-top: 10px;
   border-radius: 15px 0px 0px 15px;
-  
 }
-.blog .continer .content .info{
+.blog .continer .content .info {
   padding: 15px;
   width: 230px;
   margin-top: 10px;
-  margin-right:20px ;
+  margin-right: 20px;
   border-radius: 0px 15px 15px 0px;
   background-color: var(--platinum);
 }
-.blog .continer .content .info h4{
+.blog .continer .content .info h4 {
   color: var(--dark-gunmetal);
   font-size: 27px;
-
 }
-.blog .continer .content .info p{
+.blog .continer .content .info p {
   color: var(--dark-gunmetal);
   font-size: 19px;
-  
+}
+@media (max-width: 900px) {
+  .blog .continer .content .info {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .blog .continer .content img {
+    width: 150px;
+    margin-top: 10px;
+  }
+  .blog .continer .content .info {
+    padding: 15px;
+    width: 200px;
+  }
+  .blog .continer .content .info h4 {
+    font-size: 24px;
+  }
+  .blog .continer .content .info p {
+    font-size: 16px;
+  }
+}
+.contact h2 {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  color: var(--dark-gunmetal);
+  font-size: 40px;
+}
+.contact .continer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact .continer h4 {
+  padding: 10px 0px;
+  font-size: 19px;
+}
+.contact .continer .message input[type="Email"],
+.contact .continer .message input[type="Text"] {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  color: var(--white);
+  background-color: var(--dark-gunmetal);
+}
+.contact .continer .message textarea {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  resize: none;
+  width: 408px;
+  color: var(--white);
+  background-color: var(--dark-gunmetal);
+}
+.contact .continer .message .send {
+text-align: end;
+}
+.send-btn[type="submit"]{
+  margin: 10px;
+  background-color: var(--white);
+  color: var(--dark-gunmetal); 
+  border: 2px solid var(--dark-gunmetal);
+}
+.send-btn[type="submit"]:hover{
+  background-color: var(--dark-gunmetal);
+  color: var(--white);
+}
+.contact .continer .media {
+  margin-left: 15px;
+}
+.contact .continer .media img {
+  width: 25px;
+  margin-right: 10px;
+}
+.contact .continer .media span {
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: var(--dark-gunmetal);
+}
+@media (max-width: 600px) {
+  .contact .continer .message input[type="Email"],
+  .contact .continer .message input[type="Text"] {
+    width: 160px;
+    height: 35px;
+  }
+  .contact .continer .message textarea {
+    width: 325px;
+  }
 }
