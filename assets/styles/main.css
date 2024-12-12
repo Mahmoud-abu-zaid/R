@@ -175,3 +175,77 @@ input[type="submit"]:hover {
     font-size: 13px;
   }
 }
+.services .continer{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 15px 0px;
+  background-color: var(--platinum);
+  color: var(--dark-gunmetal);
+
+}
+.services .continer h2{
+  font-size: 45px;
+
+}
+.services .continer .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.services .continer .content div{
+  padding: 40px 20px;
+  margin: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: var(--white);
+  box-shadow: 1px 1px 8px var(--dark-gunmetal);
+  background-color: var(--dark-gunmetal);
+}
+.services .continer .content div h3{
+font-size: 25px;
+padding: 10px 0px;
+}
+.blog h2{
+  width: 100%;
+text-align: center;
+padding: 20px;
+color: var(--dark-gunmetal);
+font-size: 40px;
+}
+.blog .continer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blog .continer .content{
+  display: flex;
+
+
+}
+.blog .continer .content img{
+  width:200px;
+  margin-top: 10px;
+  border-radius: 15px 0px 0px 15px;
+  
+}
+.blog .continer .content .info{
+  padding: 15px;
+  width: 230px;
+  margin-top: 10px;
+  margin-right:20px ;
+  border-radius: 0px 15px 15px 0px;
+  background-color: var(--platinum);
+}
+.blog .continer .content .info h4{
+  color: var(--dark-gunmetal);
+  font-size: 27px;
+
+}
+.blog .continer .content .info p{
+  color: var(--dark-gunmetal);
+  font-size: 19px;
+  
+}
